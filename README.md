@@ -39,4 +39,8 @@ A curated list of pandoc Lua filters in separate repositories.
 
 - [pandoc-bootstrap]: Bootstrap 4 template for Pandoc
 
+- [pandoc-scrlttr2]: Letter template for the `scrlttr2`
+  KOMA-Script LaTeX document class.
+
 [pandoc-bootstrap]: https://github.com/ashki23/pandoc-bootstrap
+[pandoc-scrlttr2]: https://github.com/JensErat/pandoc-scrlttr2
