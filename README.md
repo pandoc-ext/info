@@ -10,10 +10,19 @@ A curated list of pandoc Lua filters in separate repositories.
 - [abstract-section] – allows to write abstracts as a section in
   the body (instead of having to put it into the metadata).
 
+- [a2ml] – reader, writer, filter, and template for A2ML (Attested
+  Markup Language), a format for AI-agent manifests with
+  attestation chains and trust metadata.
+
 - [diagram] – convert diagram code to images; includes support for
   Ti*k*Z, PlantUML, GraphViz (dot), and more.
 
 - [include-code-files] – include code from source files.
+
+- [k9] – reader, writer, filter, and template for K9
+  (Self-Validating Components), a configuration format where each
+  component carries a pedigree and validates itself against a
+  Nickel contract schema. Supports Kennel/Yard/Hunt security levels.
 
 - [pagebreak] – manually insert page breaks.
 
@@ -23,13 +32,14 @@ A curated list of pandoc Lua filters in separate repositories.
 - [section-bibliographies][section-bibs] – creates a separate
   bibliography for each section of a document.
 
-- [markdown-to-bootstrap][]: convert Markdown into bootstrap
+- [markdown-to-bootstrap][] – convert Markdown into bootstrap
   components (cards, jumbotrons, carousels, accordions)
 
-
+[a2ml]: https://github.com/hyperpolymath/pandoc-a2ml
 [abstract-section]: https://github.com/pandoc-ext/abstract-section
 [diagram]: https://github.com/pandoc-ext/diagram
 [include-code-files]: https://github.com/b3/include-code-files
+[k9]: https://github.com/hyperpolymath/pandoc-k9
 [pagebreak]: https://github.com/pandoc-ext/pagebreak
 [pretty-urls]: https://github.com/pandoc-ext/pretty-url
 [section-bibs]: https://github.com/pandoc-ext/section-bibliographies
