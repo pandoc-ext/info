@@ -10,6 +10,9 @@ A curated list of pandoc Lua filters in separate repositories.
 - [abstract-section] – allows to write abstracts as a section in
   the body (instead of having to put it into the metadata).
 
+- [credit-matrix] – writes a CRediT authorship statement from the
+  roles in the author list.
+
 - [diagram] – convert diagram code to images; includes support for
   Ti*k*Z, PlantUML, GraphViz (dot), and more.
 
@@ -28,6 +31,7 @@ A curated list of pandoc Lua filters in separate repositories.
 
 
 [abstract-section]: https://github.com/pandoc-ext/abstract-section
+[credit-matrix]: https://github.com/simonvanlierde/credit-matrix-pandoc
 [diagram]: https://github.com/pandoc-ext/diagram
 [include-code-files]: https://github.com/b3/include-code-files
 [pagebreak]: https://github.com/pandoc-ext/pagebreak
